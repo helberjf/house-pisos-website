@@ -33,3 +33,11 @@ Não foram recuperados textos completos adicionais de avaliações. Não complet
 - FindGlocal indica loja 49 e CEP diferente; preservar loja 50/endereço fornecido pelo usuário até confirmação.
 - Horário semanal no diretório não foi validado em fonte primária, portanto não substituir dados desconhecidos por ele automaticamente.
 - Acessos diretos às páginas Facebook/OLX e CDN FindGlocal sofreram bloqueios; navegador IAB falhou na inicialização. Os arquivos listados acima foram obtidos por URLs públicas acessíveis e inspecionados visualmente.
+
+Foto Maps 0: https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tzuf1_Q7lKrYz6fbhC_aE-g318KvYx36yCdLf_Ab3HpMi-_NgBZV3NPLp3_OLbAMpYTgcdgUEzIQ9UrErBWi2N3HYzV6ZKQemyWUlKrEhHm260OMfNN0TE0oV8cihxepSgaxE=w1600-h1600-k-no
+
+Foto Maps 1: https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RToNWgILUjJ87fKXBeBmpKy0SUfXQcGy2mRPBxrJf-rTQ1BulFCBG9ewqLldsMZqNhhWl2sSak2pTIyvstgAo6kUyP5l9AKm2t-pjwjzjJxrQNYuhEwjpqfM9u5rTvHq6JoTNR=w1600-h1600-k-no
+
+Foto Maps 2: https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-uYf9uqbsqY9Je1AJRkNBZKjwla_usVzEczV3EFdhxqfCph0ecfKcCYN_pXoZh0g0me6TdK66HTCGJDA5nYHubxGmdx1K0Mv9h2clfRX-2aoHIeJEOFdsfN1G3YfaGfb9L4mv=w1600-h1600-k-no
+
+Foto Maps 3: https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QeZ_ERcs-KCo52LFEzciK8GppaT893JNg4JiJQRheB9FHdkBabkeu9d8BTHvuBfUv6KB853wUEe7FY5XSxqHsr4TJcQOyhvSWWqOcUS7B7g3fEUEQTZF1yQqWT7LQjerAPG07mBSBdUQXr=w1600-h1600-k-no
