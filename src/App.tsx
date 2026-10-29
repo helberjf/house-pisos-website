@@ -1,6 +1,6 @@
 import {lazy,Suspense,useState} from 'react';
 import {FaWhatsapp,FaInstagram} from 'react-icons/fa6';
-const instagramUrl=import.meta.env.VITE_INSTAGRAM_URL || '';
+const instagramUrl='https://www.instagram.com/housepisoseporcelanatos/';
 function SocialLinks(){return <div className="social-links"><a href={whatsapp()} target="_blank" rel="noreferrer" aria-label="Conversar no WhatsApp"><FaWhatsapp/></a>{instagramUrl&&<a href={instagramUrl} target="_blank" rel="noreferrer" aria-label="Instagram da House"><FaInstagram/></a>}</div>}
 import {MotionConfig,motion} from 'motion/react';
 import {ArrowUpRight,ArrowRight,Menu,X,MapPin,Phone,ChevronDown,Layers,Truck,PackageCheck} from 'lucide-react';
