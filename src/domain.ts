@@ -1,0 +1,7 @@
+export type Item={item_id:string;kind:'product'|'service';slug:string;featured:boolean;sort_order:number;published_at:string;content:{title:string;summary:string;description:string;priceCents?:number|null;priceUnit?:string;imagePath?:string;imageAlt?:string}};
+export type PageData={path:string;items:Item[];unavailable:boolean;siteUrl:string;asset?:string};
+export const business={name:'House Pisos e Porcelanatos',address:'R. Santos Dumont, 730 · Lj 50 · Granbery',city:'Juiz de Fora · MG',phone:'(32) 99970-9900',map:'https://www.google.com/maps/search/?api=1&query=House+Pisos+e+Porcelanatos+Rua+Santos+Dumont+730+Juiz+de+Fora'};
+export function whatsapp(title?:string){return 'https://wa.me/5532999709900?text='+encodeURIComponent(title?`Olá, House! Gostaria de informações sobre ${title}.`:'Olá, House! Gostaria de conversar sobre pisos e porcelanatos.');}
+export function serialize(value:unknown){return JSON.stringify(value).replace(/</g,'\\u003c').replace(/\u2028/g,'\\u2028').replace(/\u2029/g,'\\u2029');}
+export function findItem(data:PageData){const match=data.path.match(/^\/(produtos|servicos)\/([^/]+)$/);return match?data.items.find(i=>i.slug===match[2]&&i.kind===(match[1]==='produtos'?'product':'service')):undefined;}
+export function status(data:PageData){if(data.path.startsWith('/admin'))return 200;if(data.unavailable&&(/^\/(produtos|servicos)/.test(data.path)))return 503;return ['/', '/produtos','/servicos','/sobre','/contato','/privacidade'].includes(data.path)||findItem(data)?200:404;}
