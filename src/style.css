@@ -26,3 +26,7 @@ html{scroll-behavior:smooth;scroll-padding-top:100px}header{position:sticky;top:
 @media(max-width:1000px){.hero-actions{flex-direction:row;align-items:center;gap:25px}.hero h1{font-size:70px}.review-grid{grid-template-columns:1fr 1fr}.review-score{grid-column:1/-1;align-items:center;text-align:center;padding:0 0 15px}}
 @media(max-width:700px){header{height:82px}.mobile-nav{top:82px}.brand img{width:49px;height:58px}.brand>span{font-size:23px}.hero{min-height:660px;padding:60px 6% 70px}.hero h1{font-size:clamp(46px,10.5vw,68px);letter-spacing:-2px}.hero-actions{gap:12px}.hero-actions .text-link{font-size:11px}.hero-copy p{font-size:13px}.hero .google-rating{gap:8px}.google-rating small{font-size:8px}.hero-index span{font-size:6px}.review-grid{grid-template-columns:1fr}.review-score{grid-column:auto}.review-card{padding:26px}.review-card blockquote{font-size:18px}.showroom{object-position:35% center}.hero-visual{min-height:0}.hero .hero-note{margin-top:24px}.section-heading{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Fundo uniforme integra a imagem original sem moldura. */
+header,footer{background:#fff}.brand img{mix-blend-mode:multiply;background:transparent} 
+
